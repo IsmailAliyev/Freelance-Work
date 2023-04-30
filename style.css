@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-25px, 0px);
+    }
+    50% {
+        transform: translate(0px, -25px);
+    }
+    100% {
+        transform: translate(-25px, 0px);
+    }
+}
+body {
+    color: #000;
+    font-size: 10px;
+    font-family: 'Roboto Mono',sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(237, 28, 36);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    background: transparent;
+}
+.button2 :hover {
+    background-color: rgb(255, 242, 0);
+    border-radius: 50px;
+    padding: 5px 15px;
+
+}
+.differ a {
+    color: rgb(255, 242, 0);
+}
+.differ :hover {
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 15px;
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-path {
+    margin-right: 100px;
+}
+
+.left-path h1 {
+    font-size: 40px;
+    font-weight: normal;
+   
+}
+.left-path p {
+    font-weight: normal;
+    padding-top: 50px;
+    font-size: 1.1rem;
+    color: #5E6E82;
+}
+
+.left-path a {
+    border-radius: 50px;
+    border: 2px solid rgb(237, 28, 36);
+    color: rgb(237, 28, 36);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: 700;
+    font-size: large;
+    background: transparent;
+ }
+.button :hover  {
+    background-color: rgb(255, 242, 0);
+}
+.left-path div {
+    margin-top: 50px;
+}
+.right-path {margin-left: 100px;
+  
+}
+.right-path img {
+    animation: animate 3s linear infinite;
+}
+.content2 {
+    background-color:rgb(237, 28, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-path2 {margin-left: 100px;
+  
+}
+.left-path2 img {
+    animation: animate 3s linear infinite;
+}
+.right-path2 {
+    margin-right: 300px;
+}
+.right-path2 h1 {
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+}
+.right-path2 p {
+    font-weight: normal;
+    padding-top: 50px;
+    font-size: 1.1rem;
+    color: white;
+}
+.content3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content3 h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+.content3 p {
+    font-weight: normal;
+    padding-top: 25px;
+    font-size: 1.1rem;
+}
